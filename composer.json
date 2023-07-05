@@ -1,0 +1,21 @@
+{
+	"name": "mahditoosi/pdf-maker",
+	"description": "pdf maker plugin",
+	"type": "wordpress-plugin",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "mahdi Toosi",
+			"email": "mailmahditoosi@gmail.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"mpdf/mpdf": "dev-development"
+	},
+	"autoload": {
+		"psr-4": {
+			"PM\\": "src/"
+		}
+	}
+}
