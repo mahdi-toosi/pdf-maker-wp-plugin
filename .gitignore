@@ -5,7 +5,7 @@ node_modules
 build
 secret.json
 log.txt
-storage
+storage/*.pdf
 
 # Compiled output #
 ###################

@@ -1,0 +1,33 @@
+#pm-settings > div {
+	margin: 0 0 .5rem 0;
+}
+
+#pm-settings label {
+	display: block;
+	margin-bottom: .25rem;
+}
+
+#pm-settings input, #pm-settings textarea {
+	padding: 0.25rem 0.5rem;
+	width: 100%;
+	max-width: 20rem;
+}
+
+#pm-settings textarea {
+	direction: ltr;
+	text-align: left;
+}
+
+#pm-settings button[type='submit'] {
+	padding: 0.3rem 2rem;
+}
+
+#pm-settings .shortcode-text {
+	border: 1px solid rgb(133, 133, 133);
+	padding: 0.25rem 0.5rem;
+	width: 100%;
+	max-width: 19rem;
+	background: white;
+	text-align: center;
+	margin-top: 0;
+}
